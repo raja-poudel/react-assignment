@@ -5,6 +5,8 @@ import { useState } from 'react'
 import { Subsidebar } from './components/subsidebar'
 import { Home as HomeIcon, Person as ProfileIcon } from '@mui/icons-material'
 
+console.log('updated from the bugfix-one branch')
+
 function App() {
   const [subsidebar, setSubsidebar] = useState(false)
   const [clickedSidebarType, setClickedSidebarType] = useState(null)
